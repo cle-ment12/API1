@@ -6,7 +6,7 @@
     "dev": "nodemon server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jose Manuel Puentes Gomez",
   "license": "ISC",
   "description": "",
   "dependencies": {
