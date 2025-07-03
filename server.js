@@ -1,10 +1,9 @@
-const CONFIG = require('./app/config/configuracion')
-const app = require('./app/app')
-const conexion = require('./app/config/conexion')
+const CONFIG = require('./app/config/configuracion');
+const app = require('./app/app');
+const conexion = require('./app/config/conexion');
 
-conexion.connect()
+conexion.connect();
 
-app.listen(CONFIG.PORT,()=>{
-    console.log(`Aplicacion corriendo en el puerto $ {PORT}
-    {CONFIG.PORT}`);
-    })
+app.listen(CONFIG.PORT, () => {
+  console.log(`Aplicación corriendo en el puerto ${CONFIG.PORT}`);
+});
